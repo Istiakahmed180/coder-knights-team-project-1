@@ -8,10 +8,10 @@ const HomeProducts = () => {
         Top Products
       </h2>
 
-      <div className="grid place-items-center sm:grid-cols-1 md:grid-cols-2  xl:grid-cols-4 cursor-pointer mb-5">
+      <div className="grid place-items-center sm:grid-cols-1 md:grid-cols-2  xl:grid-cols-4  mb-5">
         {HomeData.map((data) => {
           return (
-            <main className="h-96 w-80 mb-32">
+            <main className="h-96 w-80 mb-32 cursor-pointer">
               <section>
                 <img className="" src={data.image[0].url} alt="Makeup Box" />
               </section>
