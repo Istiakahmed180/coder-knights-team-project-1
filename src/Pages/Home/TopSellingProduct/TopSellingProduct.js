@@ -4,9 +4,6 @@ import axios from 'axios';
 const TopSellingProduct = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        // fetch('SellingProduct.json')
-        //     .then(res => res.json())
-        //     .then(data => setProducts(data))
         const fetchData = async () => {
             const res = await axios.get('SellingProduct.json')
             setProducts(res.data)
@@ -24,7 +21,7 @@ const TopSellingProduct = () => {
                     <i className="ri-arrow-right-line ml-1"></i>
                 </span>
             </div>
-            <div className='grid md:grid-cols-1 lg:grid-cols-2 gap-8 pb-8'>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-8 pb-8'>
                 {
                     products.map(product => <ProductCard key={product.id} product={product}></ProductCard>)
                 }
