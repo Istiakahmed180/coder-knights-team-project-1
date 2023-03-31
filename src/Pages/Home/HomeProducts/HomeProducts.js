@@ -4,8 +4,8 @@ import { HomeData } from "../../../utility/HomePageFakeData";
 const HomeProducts = () => {
   return (
     <section>
-      <h2 className="text-4xl font-bold text-center m-24 mb-20">
-        Top Sells Product
+      <h2 className="text-4xl font-bold text-center mb-20">
+        Top Products
       </h2>
 
       <div className="grid place-items-center sm:grid-cols-1 md:grid-cols-2  xl:grid-cols-4 cursor-pointer mb-5">
