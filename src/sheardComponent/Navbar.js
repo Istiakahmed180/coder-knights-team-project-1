@@ -70,7 +70,7 @@ const Navbar = () => {
       <div className="bg-white shadow-sm">
         <div className="container mx-auto flex ">
           {/* all category start */}
-          <div className="px-8 py-4 bg-[#29BA2F] flex items-center cursor-pointer relative group rounded">
+          <div className="px-8 py-4 bg-[#29BA2F] flex items-center cursor-pointer relative group rounded z-10">
             <span className="text-white">
               <i className="ri-bar-chart-horizontal-fill"></i>
             </span>

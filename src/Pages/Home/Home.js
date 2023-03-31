@@ -1,59 +1,33 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-import React, { useContext } from "react";
-import { myContext } from "../../contextApi/Authcontext";
-<<<<<<< HEAD
-import HomeCategoryByProduct from "./HomeCategoryByProduct/HomeCategoryByProduct";
-import HomeProducts from "./HomeProducts/HomeProducts";
-=======
+import React from "react";
 import Carousel from "../Carousel/Carousel";
->>>>>>> 0917cabe784ab4ba71e0ecc1687d762c55b83091
-=======
-import React, { useContext } from "react";
-import { myContext } from "../../contextApi/Authcontext";
 import OfferFlashCard from "./flashCard/OfferFlashCard";
+import GamingProduct from "./GamingProduct/GamingProduct";
 import HomeCategoryByProduct from "./HomeCategoryByProduct/HomeCategoryByProduct";
 import HomeProducts from "./HomeProducts/HomeProducts";
->>>>>>> 157384599032fa55625dd6cce85419d8003ee2c2
+import TopSellingProduct from "./TopSellingProduct/TopSellingProduct";
 
 const Home = () => {
-  const { test } = useContext(myContext);
   return (
     <div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <HomeProducts />
-      <HomeCategoryByProduct />
-=======
+      {/* Istiak Ahmed */}
       <Carousel></Carousel>
->>>>>>> 0917cabe784ab4ba71e0ecc1687d762c55b83091
-    </div>
-  );
-=======
-import React, { useContext } from 'react';
-import { myContext } from '../../contextApi/Authcontext';
-import TopSellingProduct from './TopSellingProduct/TopSellingProduct';
-import GamingProduct from './GamingProduct/GamingProduct';
+      {/* Istiak Ahmed */}
 
-const Home = () => {
-    const { test } = useContext(myContext)
-    return (
-        <div>
-            <h2>Home Page {test} </h2>
-            <TopSellingProduct></TopSellingProduct>
-            <GamingProduct></GamingProduct>
-        </div>
-    );
->>>>>>> a9644ec8cb960f08610ffeeb884cd133d7d0a989
-=======
-      <h1>Hero section</h1>
+      {/* Alamin */}
       <HomeProducts />
       <HomeCategoryByProduct />
+      {/* Alamin */}
+
+      {/* Rakibul */}
+      <TopSellingProduct></TopSellingProduct>
+      <GamingProduct></GamingProduct>
+      {/* Rakibul */}
+
+      {/* Tuhin */}
       <OfferFlashCard />
-      {/* <h2>Home Page {test} </h2> */}
+      {/* Tuhin */}
     </div>
   );
->>>>>>> 157384599032fa55625dd6cce85419d8003ee2c2
 };
 
 export default Home;

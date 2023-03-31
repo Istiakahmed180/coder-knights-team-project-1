@@ -224,34 +224,34 @@ export const HomeData = [
     user: "bbst1rererefdcd",
     createdAt: 111922,
   },
-  {
-    name: "Original memory",
-    description:
-      "The color of the physical product may slightly vary due to the deviation of lighting sources, photography or your device display settings",
-    title: "High Speed data transfer the best gajete in made by chain",
-    Brand: "RFL Houseware",
-    Material: "pp",
-    price: 11,
-    rating: 4,
-    image: [
-      {
-        public_id: "65656arr",
-        url: "https://rfleshop.com/images/thumbnails/530/530/detailed/152/64GB.png",
-      },
-    ],
-    category: "Makeup Box",
-    stock: 5,
-    numOfReviews: 4,
-    reviews: [
-      {
-        name: "alamin pk",
-        rating: 4,
-        comment: "lorem ispahni comboland lostani",
-      },
-    ],
-    user: "bbst1rererefdcd",
-    createdAt: 111922,
-  },
+  // {
+  //   name: "Original memory",
+  //   description:
+  //     "The color of the physical product may slightly vary due to the deviation of lighting sources, photography or your device display settings",
+  //   title: "High Speed data transfer the best gajete in made by chain",
+  //   Brand: "RFL Houseware",
+  //   Material: "pp",
+  //   price: 11,
+  //   rating: 4,
+  //   image: [
+  //     {
+  //       public_id: "65656arr",
+  //       url: "https://rfleshop.com/images/thumbnails/530/530/detailed/152/64GB.png",
+  //     },
+  //   ],
+  //   category: "Makeup Box",
+  //   stock: 5,
+  //   numOfReviews: 4,
+  //   reviews: [
+  //     {
+  //       name: "alamin pk",
+  //       rating: 4,
+  //       comment: "lorem ispahni comboland lostani",
+  //     },
+  //   ],
+  //   user: "bbst1rererefdcd",
+  //   createdAt: 111922,
+  // },
 ];
 
 export const Category = [
@@ -295,12 +295,12 @@ export const Category = [
     Brand: "Duranta",
     category: "Bicycle",
   },
-  {
-    name: "Drinkit Water Purifier Blue",
-    image:
-      "https://rfleshop.com/images/thumbnails/530/530/detailed/120/0422847_drinkit-water-purifier-blue.jpeg",
-    title: "Amass Closet 5 Drawers Sunflower",
-    Brand: "Drinkit",
-    category: "Water Purifie",
-  },
+  // {
+  //   name: "Drinkit Water Purifier Blue",
+  //   image:
+  //     "https://rfleshop.com/images/thumbnails/530/530/detailed/120/0422847_drinkit-water-purifier-blue.jpeg",
+  //   title: "Amass Closet 5 Drawers Sunflower",
+  //   Brand: "Drinkit",
+  //   category: "Water Purifie",
+  // },
 ];
